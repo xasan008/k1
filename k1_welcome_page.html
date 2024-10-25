@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Менің сайтым</title>
+    <style>
+        /* Фон және мәтін стильдері */
+        body {
+            background-color: #000;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Неон мәтін стилі */
+        .neon-text {
+            font-size: 3em;
+            color: #00f;
+            text-shadow: 0 0 10px #00f, 0 0 20px #00f, 0 0 30px #00f, 0 0 40px #00f;
+            animation: glow 1s ease-in-out infinite alternate;
+        }
+
+        /* Instagram сілтемесінің стилі */
+        .instagram-link {
+            margin-top: 20px;
+            color: #ff1493;
+            text-decoration: none;
+            font-size: 1.5em;
+        }
+
+        .instagram-link:hover {
+            color: #ff69b4;
+        }
+
+        /* Неон эффектінің анимациясы */
+        @keyframes glow {
+            from {
+                text-shadow: 0 0 10px #00f, 0 0 20px #00f, 0 0 30px #00f, 0 0 40px #00f;
+            }
+            to {
+                text-shadow: 0 0 20px #00f, 0 0 30px #00f, 0 0 40px #00f, 0 0 50px #00f;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1 class="neon-text">Қош келдің К1 оқушылары</h1>
+    <a class="instagram-link" href="https://www.instagram.com/mukash.888?igshid=MXFzYmoxa2RteWNnYQ%3D%3D&utm_source=qr" target="_blank">Менің Instagram-ға жазылыңыз</a>
+</body>
+</html>
